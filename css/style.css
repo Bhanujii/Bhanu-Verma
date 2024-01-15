@@ -213,16 +213,6 @@ p{
         align-self: center;
 }
 
-.banner_wrapper .banner-content h2::after{
-    content: '';
-    width: 60%;
-    height: 0.125rem;
-    position: absolute;
-    top: 50%;
-    left:25%;
-    background:var(--bg-black);
-    overflow-x: hidden;
-}
 .banner_wrapper .banner-content h5 span{
     color: var(--primary-text);
     font-weight: bold;
