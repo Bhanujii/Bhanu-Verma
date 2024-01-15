@@ -1,0 +1,85 @@
+@media(max-width: 1199.5px){
+
+/* Custom CSS */
+h1{
+    font-size: 3.75rem;
+}
+h2{
+    font-size: 2.1875rem;
+}
+h3{
+    font-size: 1.875rem;
+    line-height: 2.6875rem;
+}
+h5{
+    font-size: 1.0625rem;
+}
+
+}
+
+@media(max-width: 991px){
+
+    /* 2.navbar */
+    .header-scrolled{
+        height: auto;
+    }
+    .header_wrapper .navbar-collapse{
+        margin-top: 0.125rem;
+    }
+    .header_wrapper .menu-navbar-nav{
+        text-align: center;
+        background-color: var(--bg-white);
+        padding-bottom: 0.9375rem;
+    }
+    .header_wrapper .nav-item .nav-link{
+        margin-top: 0.9375rem;
+    }
+    
+}
+
+@media(max-width: 767px){
+
+    /* Custom CSS */
+    
+    h1{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    h2{
+        font-size: 1.875rem;
+        line-height: 2.375rem;
+        
+    }
+    h3{
+        font-size: 1.5625rem;
+        line-height: 2.1875rem;
+    }
+}
+
+@media(max-width: 575.5px){
+.exp_wrapper .card{
+        margin: 0 0.938rem 0 0.938rem;
+        
+} 
+.contact_wrapper .card1{
+    margin-left: 1.25rem;
+}
+.contact_wrapper .card1{
+    margin-left: 1.25rem;
+}
+    
+}
+
+@media(max-width: 390px){
+
+    /* top banner */
+    .banner_wrapper .banner-content h2::after{
+        left: 34%;
+    }
+    .contact_wrapper .card1{
+        margin-left: 1.25rem;
+    }
+    .contact_wrapper .card1{
+        margin-left: 1.25rem;
+    }
+}
