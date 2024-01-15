@@ -221,8 +221,8 @@ p{
     opacity: 0;
     -webkit-animation: zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;
             animation: zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;
-    -webkit-animation-delay: 2s, 3s;
-            animation-delay: 2s, 3s;
+    -webkit-animation-delay: 1s, 2s;
+            animation-delay: 1s, 2s;
 }
 
 /* 4. Skill */
