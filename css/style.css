@@ -280,6 +280,7 @@ p{
     -webkit-box-shadow: 0 0.9375rem 1.875rem rgba(8, 8, 8, 0.285);
     box-shadow: 0 0.9375rem 1.875rem rgba(8, 8, 8, 0.285);
     border: none;
+    color: var(--text-black);
     cursor: pointer;
     transition: all .4s ease 0s;
     -webkit-transition: all .4s ease 0s;
@@ -288,12 +289,14 @@ p{
     -moz-transition: all .4s ease 0s;
 }
 .exp_wrapper .card:hover{
-    -webkit-box-shadow: 0 0.9375rem 1.875rem rgb(255,195,151, 50%);
+    -webkit-box-shadow: 0 0.9375rem 1.875rem rgba(250, 156, 89, 0.539);
             box-shadow: 0 0.9375rem 1.875rem rgba(250, 156, 89, 0.539);
     border: none;
-    background: #f9c2c225 ;
+    background: var(--gradient);
+    color: var(--text-white);
+    .card-title {color: var(--text-white)};
+    .card-text {color: var(--text-white)};
 }
-
 /* 6. Education */
 .edu_wrapper .edu-title {
     font-size: 1.625rem;
@@ -353,13 +356,14 @@ p{
   }
 
   /* 7. Contact */
-  .contact_wrapper .card{
+ .contact_wrapper .card{
     color: var(--text-black);
     background: var(--bg-light);
     -webkit-box-shadow: 0 0.9375rem 1.875rem rgba(8, 8, 8, 0.285);
     box-shadow: 0 0.9375rem 1.875rem rgba(8, 8, 8, 0.285);
     border: none;
-    border-radius: 0.325rem;
+    text-align: center;
+    border-radius: 0.375rem;
     cursor: pointer;
     transition: all .4s ease 0s;
     -webkit-transition: all .4s ease 0s;
@@ -368,18 +372,24 @@ p{
     -moz-transition: all .4s ease 0s;
   }
   .contact_wrapper .card:hover{
-    -webkit-box-shadow: 0 0.9375rem 1.875rem rgb(255,195,151, 50%);
+    -webkit-box-shadow: 0 0.9375rem 1.875rem rgba(250, 156, 89, 0.539);
             box-shadow: 0 0.9375rem 1.875rem rgba(250, 156, 89, 0.539);
-    background: #f9c2c225 ;
+    background: var(--gradient);
+    .fa {color: var(--text-black)};
+    h3 {color: var(--text-white)};
+    .fab {color: var(--text-white)};
   }
-  .contact_wrapper .card1 {
+  .contact_wrapper .card .fab:hover {
+    color: var(--copy-color)
+  }
+  .contact_wrapper .card1{
     color: var(--text-black);
-    border-radius: 0.325rem;
-    text-align: center;
     background: var(--bg-light);
     -webkit-box-shadow: 0 0.9375rem 1.875rem rgba(8, 8, 8, 0.285);
     box-shadow: 0 0.9375rem 1.875rem rgba(8, 8, 8, 0.285);
+    text-align: center;
     border: none;
+    border-radius: 0.375rem;
     cursor: pointer;
     transition: all .4s ease 0s;
     -webkit-transition: all .4s ease 0s;
@@ -388,11 +398,14 @@ p{
     -moz-transition: all .4s ease 0s;
   }
   .contact_wrapper .card1:hover{
-    -webkit-box-shadow: 0 0.9375rem 1.875rem rgb(255,195,151, 50%);
+    -webkit-box-shadow: 0 0.9375rem 1.875rem rgba(250, 156, 89, 0.539);
             box-shadow: 0 0.9375rem 1.875rem rgba(250, 156, 89, 0.539);
-    background: #f9c2c225 ;
+            border-radius: 0.375rem;
+    background: var(--gradient);
+    .fa {color: var(--text-black)};
+    h3 {color: var(--text-white)};
+    p {color: var(--text-white)};
   }
- 
 .contact_wrapper .social-icons li{
     margin: 0.375rem;
 }
@@ -403,9 +416,6 @@ p{
     color: var(--text-black);
     text-align: center;
     margin: 0 0.825rem;
-}
-.contact_wrapper .social-icons li a:hover{
-    color: var(--copy-color);
 }
 .contact_wrapper .card i.fa {
     font-size:1.5rem ;
