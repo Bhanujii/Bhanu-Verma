@@ -420,10 +420,7 @@ p{
 .contact_wrapper .card i.fa {
     font-size:1.5rem ;
     color: var(--primary-color);
-    border-radius: 40%;
-    margin: 0 47.5% 0 47%;
     padding: 0.938rem;
-    background: #fff6e4;
   }
   .contact_wrapper .card h3 {
     font-size: 1.25rem;
@@ -434,9 +431,7 @@ p{
 .contact_wrapper .card1 i.fa {
     font-size:1.5rem ;
     color: var(--primary-color);
-    border-radius: 40%;
     padding: 0.938rem;
-    background: #fff6e4;
   }
   
 .contact_wrapper .card1 h3 {
