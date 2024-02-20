@@ -30,7 +30,7 @@
 
 </head>
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="90">
-    <div class = "preloader"></div>
+    
     <!-- Nav Section -->
     <header class="header_wrapper">
         <nav class="navbar navbar-expand-lg fixed-top">
@@ -362,12 +362,6 @@ let navCollapse = document.querySelector(".navbar-collapse.collapse");
 
 navBar.forEach(a => a.addEventListener("click", () => navCollapse.classList.remove("show")));
 
-// PreLoader
-        const PreLoader = () => {
-          const loader = document.querySelector(".preloader");
-          loader.classList.remove("preloader");
-        }
-        window.addEventListener("load", PreLoader);
       </script>
 </body>
 </html>
