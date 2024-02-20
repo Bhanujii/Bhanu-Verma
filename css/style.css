@@ -148,13 +148,6 @@ p{
     font-weight: 400;
 }
 
-.preloader{
-  height: 100vh;
-  width: 100%;
-  position: fixed;
-  z-index: 100;
-  background: #fff url(/image/B.gif);
-}
 /* 2. Navbar */
 
 .header_wrapper .navbar{
