@@ -45,7 +45,21 @@
     --primary-font: 'Rubik', sans-serif;
     --secondary-font: 'Roboto', sans-serif;
 }
+.blinking-red{
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: rgb(255, 0, 0);
+  margin: -26px  0px 0px 3px;
+}
 
+.blinking-green {
+  animation: 2s blink-green ease infinite;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  margin: -26px  0px 0px 3px;
+}
 body{
     font-family: var(--secondary-font);
     width: 100%;
