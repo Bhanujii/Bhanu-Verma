@@ -43,3 +43,12 @@
       transform: rotate(360deg);
     }
   }
+ @keyframes blink-green {
+    from, to {
+      opacity: 0;
+      background-color: green;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
