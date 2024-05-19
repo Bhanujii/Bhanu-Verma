@@ -34,6 +34,20 @@ h5{
     .header_wrapper .nav-item .nav-link{
         margin-top: 0.9375rem;
     }
+    .contact-right{
+        display: none;
+    }
+    .contact_wrapper{
+        padding: 0rem;
+        padding-right: 3rem;
+    }
+    .contact-container{
+        height: auto;
+        padding: 0rem 0px;
+    }
+    .footer_wrapper{
+        padding: 0rem;
+    }
     
 }
 
@@ -54,6 +68,20 @@ h5{
         font-size: 1.5625rem;
         line-height: 2.1875rem;
     }
+    .contact-right{
+        display: none;
+    }
+    .contact_wrapper{
+        padding: 0rem;
+        padding-right: 3rem;
+    }
+    .contact-container{
+        height: auto;
+        padding: 0rem 0px;
+    }
+    .footer_wrapper{
+        padding: 0rem;
+    }
 }
 
 @media(max-width: 575.5px){
@@ -61,12 +89,20 @@ h5{
         margin: 0 0.938rem 0 0.938rem;
         
 } 
-.contact_wrapper .card1{
-    margin-left: 1.25rem;
-}
-.contact_wrapper .card1{
-    margin-left: 1.25rem;
-}
+.contact-right{
+        display: none;
+    }
+    .contact_wrapper{
+        padding: 0rem;
+        padding-right: 3rem;
+    }
+    .contact-container{
+        height: auto;
+        padding: 0rem 0px;
+    }
+    .footer_wrapper{
+        padding: 0rem;
+    }
     
 }
 
@@ -76,10 +112,18 @@ h5{
     .banner_wrapper .banner-content h2::after{
         left: 34%;
     }
-    .contact_wrapper .card1{
-        margin-left: 1.25rem;
+  .contact-right{
+        display: none;
     }
-    .contact_wrapper .card1{
-        margin-left: 1.25rem;
+    .contact_wrapper{
+        padding: 0rem;
+        padding-right: 3rem;
+    }
+    .contact-container{
+        height: auto;
+        padding: 0rem 0px;
+    }
+    .footer_wrapper{
+        padding: 0rem;
     }
 }
